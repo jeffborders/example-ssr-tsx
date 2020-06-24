@@ -10,7 +10,6 @@ router
   .get('/:pageName', async (req, res) => {
     try {
       const componentName: string = capitalizeFirstLetter(req.params.pageName);
-      console.info(componentName);
       const module = await import(`../client/pages/${componentName}`);
       const response = serverResponse(module, componentName);
 

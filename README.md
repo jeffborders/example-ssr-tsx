@@ -19,3 +19,9 @@ $ npm run build
 ```
 $ npm start
 ```
+
+## Routes to hit
+- /
+- /home
+- /about
+- /any-other-non-existent-route
