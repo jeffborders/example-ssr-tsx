@@ -4,7 +4,7 @@
   "description": "react, typescript, ssr",
   "main": "dist/server.js",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "webpack-glob-entries": "^1.0.1"
